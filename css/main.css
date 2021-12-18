@@ -331,7 +331,11 @@ ul{
     font-size: 19px;
     cursor: pointer;
 }
-.footer .col:first-child i:hover{background:#eee;color:#232323}
+.footer .col:first-child i:hover{
+    background: #1aadbc;
+    color: #fffffffa;
+    border: 1px solid #1abc9c;
+}
 .footer .col .tags span{
     display: inline-block;
     border:1px solid #ddd;
