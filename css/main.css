@@ -24,10 +24,10 @@ ul{
 .navbar .brand{
     width:50%; 
     float:left;
-    text-transform: uppercase;
     font-size: 18px;
     margin-top:10px;
 }
+.navbar .brand span{color: #1abc9c}
 
 .navbar ul.links{
     width:50%;
@@ -257,7 +257,7 @@ ul{
     background: #1abc9c;
     color:#fff;
 }
-.portfolio .project .boxes{overflow: hidden;}
+.portfolio .project .boxes{overflow: hidden; height: 520px;}
 .portfolio .project .boxes > div{
     display: none;
     float:left;
