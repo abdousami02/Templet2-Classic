@@ -24,10 +24,10 @@ ul{
 .navbar .brand{
     width:50%; 
     float:left;
-    text-transform: uppercase;
     font-size: 18px;
     margin-top:10px;
 }
+.navbar .brand span{color: #1abc9c}
 
 .navbar ul.links{
     width:50%;
@@ -257,7 +257,7 @@ ul{
     background: #1abc9c;
     color:#fff;
 }
-.portfolio .project .boxes{overflow: hidden;}
+.portfolio .project .boxes{overflow: hidden; height: 520px;}
 .portfolio .project .boxes > div{
     display: none;
     float:left;
@@ -331,7 +331,11 @@ ul{
     font-size: 19px;
     cursor: pointer;
 }
-.footer .col:first-child i:hover{background:#eee;color:#232323}
+.footer .col:first-child i:hover{
+    background: #1aadbc;
+    color: #fffffffa;
+    border: 1px solid #1abc9c;
+}
 .footer .col .tags span{
     display: inline-block;
     border:1px solid #ddd;
